@@ -13,8 +13,8 @@ public class JavaExercises {
      */
     public static void starTriangle() {
         // TODO: Fill in this function
-        for(int i =1;i <=5;i++) {
-            for(int j =0;j < i;j++) {
+        for (int i = 1 ;i <= 5;i++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print('*');
             }
             System.out.print('\n');
@@ -27,7 +27,7 @@ public class JavaExercises {
      */
     public static void printIndexed(String s) {
         // TODO: Fill in this function
-        for(int i=0;i <s.length();i++) {
+        for (int i=0;i <s.length();i++) {
             System.out.print(s.charAt(i));
             System.out.print(s.length()-1-i);
         }
